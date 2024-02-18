@@ -2,7 +2,8 @@ the programs consists mainly of 2 threads:
 the first capture audio and put data in queue
 the second takes data from queue , transcribe it then translate it and display it
 we use pyaudio so this program can't be executed on android devices (only microsoft, linux and apple are supported)
-it was tested successfully when we capture data from speaker directly.: transcribtion fails almost all time if mic is getting data from speakers. may be this due to high noise 
-in audio signal
-this program uses google free model for speech recognition. so this service can stop any time. never happened to me, may be because i have light traffic.
+it was tested successfully when we capture data from speaker directly.: transcribtion fails almost all time if mic is getting data from speakers. may be this due to high noise in audio signal. it will give better reslts with wired microphone. bluetooth mic in most cases will add noise.
+this program uses google free model for speech recognition. so this service can stop any time. never happened to me, may be because i have light traffic. normally google can give free 60 min per month. 
 you can save the output of the translated text in text file
+you can download the .exe file from : https://drive.google.com/file/d/1L-oUhg5hzQq8TqYBZdb6FcJ1t2whqTxr/view?usp=sharing
+
